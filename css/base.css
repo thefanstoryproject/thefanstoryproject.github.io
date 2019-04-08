@@ -1,0 +1,400 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	color: #444;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5em;
+	background:url(../images/Flygirl.png) top right no-repeat;
+	background-size: cover;
+	background-attachment:fixed;
+	background-position: center;
+}
+ol, ul {
+	list-style: square;
+	margin: 0 0 0.5em;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+code {
+	background-color: #f4f4f4;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.875em;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+strong {
+	font-weight: bold;
+}
+p {
+	margin: 0 0 0.5em;
+	max-width: 634px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+}
+
+em {
+	font-style:italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Arial "Arial Black", Gadget, sans-serif;
+	font-weight: normal;
+	line-height: 1.2em;
+	padding: 0.5em 0 0.25em;
+	color: #F30;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2em;
+	font-family: Arial "Arial Black", Gadget, sans-serif;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+h4 {
+	font-size: 1.25em;
+}
+
+h5, h6 {
+	font-size: 1em;
+}
+
+a, a:link, a:visited {
+	color: #C30;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	background: #C30;
+	border-color: #fff;
+	color: #fff;
+}
+
+img {
+	max-width: 100%;
+}
+
+hr {
+	border: none;
+	background: url(../images/bg_hr.png) center center no-repeat;
+	height: 10px;
+}
+
+#logo {
+	padding-bottom: 0;
+}
+
+.logo {
+	font-weight: normal;
+	font-size: 1.2em;
+}
+.logo b {
+	font-weight: bold;
+}
+
+.banner-wrap {
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 1em;
+	margin-top:0;
+	width:100%;
+	height: 600px;
+	position: 0;
+}
+
+.brogo {
+	height: 100%;
+	width: 100%;
+	background-color: RGBa(255,255,255,0.9);
+	color: #F30;
+	vertical-align: center;
+}
+
+.intro {
+	font-size: 1.75em;
+	line-height: 1.1em;
+	max-width: none;
+}
+
+.grid {
+	padding: 20px;
+}
+
+.row {
+	margin-bottom: 1em;
+}
+
+.feature h2 {
+	font-weight: bold;
+	text-align: center;
+}
+
+.feature p {
+	font-size: 1.125em;
+}
+
+.mod-download {
+	background: url(../images/bg_download.png) 0 0.75em no-repeat;
+	background-size: 100%;
+}
+
+.mod-download h2 {
+	color: #11bad3;
+	font-weight: bold;
+}
+
+.mod-download .logo {
+	color: #fff;
+	font-size: 1em;
+}
+
+a.bttn {
+	border-right: 1px solid #0087a0;
+	border-bottom: 1px solid #0087a0;
+	background: #11bad3;
+	color: #fff;
+	display: inline-block;
+	font-family: Arial;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin: 0.5em 0;
+	padding: 0.5em 0.75em;
+}
+
+.mod-download .bttn:hover {
+	background: #0087a0;
+	cursor: pointer;
+}
+
+.groods {
+	margin-bottom: 4em;
+}
+
+.groods .row { margin-bottom: 0; }
+
+.groods .row p {
+	background: #ffc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 1em;
+	margin: 0 0 1em;
+}
+
+.footer p {
+	color: #666;
+	text-align: center;
+	max-width: none;
+}
+
+.buttons-menu {
+	text-align: center;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 1em;
+	padding-bottom: 10px;
+	width:100%;
+	position: fixed;
+	
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	background-color: #F63;
+
+	/*Opacity start*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	filter: alpha(opacity=90);
+	-moz-opacity: 0.90;
+	-khtml-opacity: 0.9;
+	opacity: 0.9;
+	/*Opacity end*/
+}
+
+.buttons-menu a:link {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.buttons-menu a:visited {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.buttons-menu a:hover {
+	color: #C00;
+	background-color: #FFF;
+}
+
+.buttons-menu a:active {
+	color: #C00;
+	background-color: #FFF;
+}
+
+}
+
+.button:hover {
+	color: #000;
+	background-color: #fff;
+	
+}
+
+a.link {
+	color: #fff;
+}
+
+.about {
+	text-align: center;
+	background-color: rgba(0,0,0,0);
+	border-bottom: 1px solid #ccc;
+	padding: 0 10px 1em;
+	margin-bottom: 1em;
+	height: 100%;
+	vertical-align: center;
+
+}
+
+.foot {
+	text-align: center;
+	background-color: rgba(0,0,0,0);
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 1em;
+	height: 800px;
+	width: 100%;
+
+}
+
+.brago {
+	height: 270px;
+	width: 100%;
+	background-color: RGBa(255,255,255,0.9);
+	color: #F30;
+	vertical-align: center;
+}
+.brago a:link, a:visited {
+	color: #C30;
+}
+
+.brago a:hover, a:active {
+	background: #C30;
+	border-color: #fff;
+	color: #fff;
+}
+
+.streaks {
+	height: 700px;
+	width: 100%;
+	background-image: url(../images/Streaks.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.brigo {
+	height: 100%;
+	width: 100%;
+	background-color: RGBa(255,255,255,0.9);
+	color: #F30;
+	vertical-align: center;
+	text-align: center;
+}
+
+.brigo a:hover span.text-content {
+  opacity: 1;
+}
+
+.works {
+	width: 100%;
+	height: 900px;
+	padding-bottom: 20%;
+	
+}
+
+.portfolio {
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+}
+
+.brego {
+	height: 450px;
+	width: 400;
+	background-color: RGBa(255,255,255,0.9);
+	color: #F30;
+	vertical-align: center;
+}
+
+.brugo {
+	height: 100%;
+	width: 500px;
+	background-color: RGBa(255,255,255,0.9);
+	color: #F30;
+	vertical-align: center;
+}
+
+.nextlast {
+	height: 170px;
+	width: 100px;
+	position:fixed;
+	padding-left: 20px;
+}
+
+.nextlast a:hover {
+	background-image: url(../images/hover.png);
+	background-size:cover;
+	background-position:bottom;
+}
+
+.white {
+	heignt:100%;
+	width:100%;
+	background-color:#fff;
+	padding-bottom:20px;
+}
+
+.description {
+	height: 100%;
+	width: 65%;
+	text-align: justify;
+	padding: 30px;
+}
+
+.broogo {
+	width: 90%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
