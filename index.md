@@ -1,10 +1,10 @@
-<!DOCTYPE html> 
+--!DOCTYPE html-- 
 <html lang="en"> 
 <head> 
 	<title>The Fanstory Project</title>
         <link rel="icon" 
       type="image/png" 
-      href="Images/logo.png">
+      href="Image/logo.png">
 		<!-- SMOOTH SCROLL -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>
